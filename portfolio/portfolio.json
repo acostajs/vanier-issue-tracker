@@ -1,0 +1,80 @@
+{
+	"meta": {
+		"title": "Issue Tracker – React & FastAPI",
+		"role": "Full-Stack Developer",
+		"type": "Academic team project (Advanced Web Programming Techniques, Vanier College)",
+		"audience": ["Recruiters", "Instructors", "Developers"],
+		"status": "Completed"
+	},
+
+	"overview": {
+		"summary": "A full-stack issue tracker web application inspired by tools like GitHub Issues and Jira. Built as a team project using a React single-page application frontend and a FastAPI backend, focusing on client-side routing, API integration, and structured project management features.",
+		"problem": "Managing projects, issues, and team members requires clear data organization, responsive user interfaces, and reliable communication between frontend and backend systems.",
+		"solution": "A modular issue tracking system with a RESTful FastAPI backend and a React frontend, allowing users to manage projects, members, labels, and issues through a clean single-page interface."
+	},
+
+	"responsibilities": [
+		"Worked as part of a team to design and implement a full-stack web application",
+		"Developed React components and pages using client-side routing with React Router",
+		"Integrated frontend features with a REST API using HTTP requests",
+		"Implemented issue management features including creation, assignment, filtering, and status updates",
+		"Collaborated on backend API structure and data contracts",
+		"Used GitHub Issues and milestones to organize development tasks"
+	],
+
+	"tech_stack": [
+		"JavaScript",
+		"React",
+		"React Router",
+		"Bun",
+		"Python",
+		"FastAPI",
+		"uv",
+		"GitHub"
+	],
+
+	"architecture": {
+		"approach": "Client–server architecture with a single-page React application consuming a RESTful FastAPI backend, developed collaboratively with clear separation of concerns.",
+		"data_flow": "The React frontend sends HTTP requests to the FastAPI backend, which processes data and returns JSON responses used to update application state and UI.",
+		"deployment": "Not deployed. The application is intended to be run locally for development and evaluation."
+	},
+
+	"key_features": [
+		"Project creation and management",
+		"Issue lifecycle management (open, close, reopen)",
+		"Member and label management within projects",
+		"Assignment of members and labels to issues",
+		"Issue filtering and search functionality",
+		"Single-page application with client-side routing"
+	],
+
+	"challenges_and_learnings": [
+		"Coordinating frontend and backend development in a team environment",
+		"Designing and consuming RESTful APIs",
+		"Managing application state across multiple routes",
+		"Implementing combined filtering and search logic",
+		"Structuring a scalable React project",
+		"Collaborating using GitHub Issues and milestones"
+	],
+
+	"skills_demonstrated": [
+		"Full-stack web development",
+		"React single-page application development",
+		"REST API integration",
+		"Client-side routing",
+		"Team-based software development",
+		"Project and task organization using GitHub"
+	],
+
+	"future_improvements": [
+		"Improve UI and visual consistency",
+		"Add persistent storage with a database",
+		"Enhance error handling and validation",
+		"Deploy the application to a production environment"
+	],
+
+	"links": {
+		"live_demo": "",
+		"source_code": "https://github.com/acostajs/vanier-issue-tracker"
+	}
+}

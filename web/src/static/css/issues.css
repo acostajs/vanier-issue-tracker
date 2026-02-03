@@ -1,0 +1,50 @@
+.create_issue_form {
+    padding: 20px;
+
+    & input,
+    textarea {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    & textarea {
+        height: 400px;
+    }
+
+    & span {
+        font-size: 24px;
+    }
+}
+
+.create_issue_form_buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.issue-content {
+    background-color: #cbd0dc;
+    color: #151b22;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.issue-content button {
+    background-color: #19549c;
+    color: #d0d5df;
+    border: 1px solid #323b44;
+}
+
+.issue-content li {
+    margin-bottom: 15px;
+}
+
+.issue-content span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+}
